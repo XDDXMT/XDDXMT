@@ -1,60 +1,89 @@
-# xddxmt
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="xddxmt · Python / Web / Qt · Build, learn, repeat." width="100%">
+</picture>
 
-我是一名初中生开发者，主要使用 Python 开发应用，关注 Web 前后端、Qt 桌面界面与网络通信。这里展示我开发和维护的项目，也记录持续学习与技术实践的过程。
+# 👋 嗨，我是 xddxmt！
 
-## 我的代表作
+一个正在努力升级中的**初中生程序员** :D
 
-### FluentPy
+欢迎来到我的 GitHub！这里是我写代码、做项目、记录想法的小基地。主要折腾 **Python 和 Web**，也在探索 **Qt 桌面界面、C 扩展和加密通信**。
 
-面向 Qt for Python 的 Fluent 风格桌面组件库，由我独立开发，采用 MIT 许可证。提供输入、卡片、表格、导航、消息提示等组件，支持主题切换与界面动画，并附带可交互的组件示例工作台。
+想把脑子里的点子，慢慢做成真正能用的东西。还在学习，也一直在动手 🛠️
 
-界面与动画由 Qt 实现，部分后端计算使用 C 扩展加速；扩展不可用时自动回退 Python。组件库已发布至 PyPI，安装名为 `fluentpy-qt`，导入名为 `fluentpy`。
+## 🚀 我的代表作
 
-[源码与示例](https://github.com/XDDXMT/FluentPy) · [中文文档](https://fluentpy.mcxmcl.cn/) · [PyPI](https://pypi.org/project/fluentpy-qt/) · [工作台下载](https://github.com/XDDXMT/FluentPy/releases)
+### 🪟 FluentPy
 
-### 馒云盘
+**给 Python 桌面应用添一点 Fluent 风格。**
 
-我开发的文件存储与分享服务，支持无需登录访问分享内容，上传和下载不限速，注重日常文件分享的便捷性、传输体验与存储成本。
+这是我独立开发的 Qt for Python 组件库，采用 MIT 许可证。从按钮、输入框、卡片，到表格、导航和消息提示，可以逐个使用，也能组合成完整的桌面界面。
 
-[访问馒云盘](https://man.mcxmcl.cn)
+主题切换、界面动画和可交互的示例工作台也都安排上了。下面就是工作台的实际样子 👇
 
-### Sovereign-Chain · 天启御链
+<a href="https://github.com/XDDXMT/FluentPy">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/fluentpy-workbench-dark.png">
+    <img src="assets/fluentpy-workbench-light.png" alt="FluentPy 组件示例工作台：导航、主题与组件分类" width="100%">
+  </picture>
+</a>
 
-基于 TCP 的加密通信项目，关注通信效率与协议设计，支持证书认证、消息加密和中转代理。通过这一项目探索身份验证、握手流程与加密传输的实现。
+界面和动画交给 Qt，部分计算由 C 扩展加速；没有扩展时，也能使用 Python 兼容实现。已经发布到 PyPI，可以这样安装：
 
-[查看源码](https://github.com/XDDXMT/Sovereign-Chain)
+```console
+python -m pip install fluentpy-qt
+```
 
-## 技术方向
+📦 [源码与示例](https://github.com/XDDXMT/FluentPy) · 📖 [中文文档](https://fluentpy.mcxmcl.cn/) · [PyPI](https://pypi.org/project/fluentpy-qt/) · 🖥️ [工作台下载](https://github.com/XDDXMT/FluentPy/releases)
 
-- **Python 应用开发**：应用与工具开发、组件封装及项目维护。
-- **Web 开发**：前后端功能实现与在线服务建设。
-- **Qt 桌面开发**：界面组件、交互设计、主题与动画。
-- **C 扩展与性能优化**：为 Python 项目实现可选的原生计算模块。
-- **网络通信**：加密协议、身份验证与中转机制。
+### 🗂️ 馒云盘
 
-## 团队
+**一个想让文件分享更省心的云盘。**
 
-目前带领 XMCL 与 XRSL 两个团队，推进相关项目的开发与协作。
+分享内容无需登录就能访问，上传、下载不限速，也希望把存储成本做得更亲民。对，就是我自己做的！
 
-| 团队 | 网站 |
+☁️ [去馒云盘看看](https://man.mcxmcl.cn)
+
+### 🔐 Sovereign-Chain · 天启御链
+
+**研究一下，怎样把“悄悄话”好好传过去。**
+
+这是一个基于 TCP 的加密通信项目，支持证书认证、消息加密和中转代理。我用它探索握手流程、身份验证与传输效率，也记录实现过程中的思考。
+
+🔗 [查看源码](https://github.com/XDDXMT/Sovereign-Chain)
+
+## 🧰 我在折腾什么
+
+| 方向 | 正在做的事 |
 | --- | --- |
-| XMCL | [www.mcxmcl.cn](https://www.mcxmcl.cn) |
-| XRSL | [web.mcxmcl.cn](https://web.mcxmcl.cn) |
+| 🐍 Python | 写应用、做工具，把重复的事情交给代码 |
+| 🌐 Web | 前端界面、后端服务，都想多学一点 |
+| 🪟 Qt / PySide6 | 做桌面组件，打磨主题、动画与交互 |
+| ⚙️ C 扩展 | 给 Python 项目的部分计算加速 |
+| 🔐 网络通信 | 探索加密协议、身份验证与中转机制 |
 
-## 联系方式
+## 👥 一起做点东西
 
-欢迎交流项目使用、问题反馈与开发合作。
+目前带领 **XMCL** 和 **XRSL** 两个团队，和伙伴们一起推进项目。一个人的点子，也可以变成一群人一起做的东西。
 
-- 邮箱：[xddxmt@mcxmcl.cn](mailto:xddxmt@mcxmcl.cn)
-- QQ：3242247564
+🏠 [XMCL 团队](https://www.mcxmcl.cn) · 🌐 [XRSL 团队](https://web.mcxmcl.cn)
 
-具体项目的问题与建议，也欢迎通过对应仓库的 Issues 提交。
-
-## 支持项目
-
-如果这些项目对你有所帮助，欢迎通过 Star、问题反馈或代码贡献参与，也可以通过[爱发电](https://afdian.com/a/xddxmt)支持后续开发与维护。
-
-## GitHub 统计
+## 📊 我的 GitHub 小记录
 
 ![GitHub 活跃统计](https://stats-phi-ivory.vercel.app/api?username=XDDXMT&lang=zh_cn)
 ![常用语言](https://stats-phi-ivory.vercel.app/api/top-langs/?username=XDDXMT&layout=compact)
+
+## 📫 来找我聊聊
+
+项目使用、问题反馈、开发合作，或者单纯交流技术，都欢迎！
+
+- 邮箱：[xddxmt@mcxmcl.cn](mailto:xddxmt@mcxmcl.cn)
+- QQ：**3242247564**
+
+具体项目的问题也可以直接提 Issue，方便一起跟进。
+
+## ❤️ 支持一下我的项目
+
+如果这些项目刚好帮到了你，一个 Star、一条建议或一次贡献，都是继续写下去的动力。
+
+也可以通过[爱发电](https://afdian.com/a/xddxmt)支持后续开发。谢谢愿意关注这些小项目的你！

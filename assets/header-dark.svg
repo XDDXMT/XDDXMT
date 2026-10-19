@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">xddxmt — Build, learn, repeat.</title>
+  <desc id="desc">A playful coding workspace with a desktop window, code card, and connected dots.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#10262e"/><stop offset="1" stop-color="#211d38"/></linearGradient>
+    <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#06b6c4"/><stop offset="1" stop-color="#8175ed"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="248" rx="24" fill="url(#background)" stroke="#2c3d50"/>
+  <path d="M430 249c90-120 176 25 295-96S924 75 999 18" fill="none" stroke="#8875cd" stroke-width="40" opacity=".18"/>
+  <circle cx="919" cy="193" r="59" fill="#287b86" opacity=".38"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="42" y="57" font-size="12" font-weight="600" letter-spacing="3" fill="#8faec3">HELLO, I'M</text>
+    <text x="39" y="121" font-size="64" font-weight="750" letter-spacing="-2" fill="#eef7fc">xddxmt<tspan fill="#56d7df">.</tspan></text>
+    <text x="43" y="158" font-size="17" fill="#a2bdcf">Python / Web / Qt</text>
+    <rect x="42" y="184" width="198" height="33" rx="16.5" fill="#1d3041" stroke="#365267"/>
+    <circle cx="60" cy="200.5" r="4" fill="#5cd7dc"/>
+    <text x="73" y="205" font-size="13" fill="#c1d7e4">Build, learn, repeat.</text>
+  </g>
+  <g transform="translate(503 48) rotate(-3 150 80)">
+    <rect x="5" y="9" width="309" height="171" rx="15" fill="#040915" opacity=".23"/>
+    <rect width="309" height="171" rx="15" fill="#1d3041" stroke="#38516a"/>
+    <path d="M0 32h309" stroke="#30495f"/>
+    <circle cx="18" cy="17" r="4" fill="#66d1d3"/><circle cx="32" cy="17" r="4" fill="#b5a8ef"/><circle cx="46" cy="17" r="4" fill="#f1ca7c"/>
+    <rect x="14" y="46" width="62" height="108" rx="8" fill="#142534"/>
+    <rect x="24" y="60" width="41" height="7" rx="3.5" fill="#258692"/>
+    <path d="M26 85h33m-33 16h26m-26 16h31" stroke="#3f5b73" stroke-width="5" stroke-linecap="round"/>
+    <rect x="91" y="46" width="202" height="44" rx="8" fill="url(#accent)" opacity=".88"/>
+    <rect x="104" y="60" width="86" height="6" rx="3" fill="#ffffff" opacity=".9"/>
+    <rect x="104" y="72" width="126" height="4" rx="2" fill="#ffffff" opacity=".48"/>
+    <rect x="91" y="101" width="95" height="53" rx="8" fill="#182a3b" stroke="#30495f"/>
+    <rect x="198" y="101" width="95" height="53" rx="8" fill="#182a3b" stroke="#30495f"/>
+    <path d="m111 120-5 5 5 5m8-10 5 5-5 5" fill="none" stroke="#55d1dc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="216" cy="125" r="7" fill="#9f8fe7"/>
+  </g>
+  <g transform="translate(783 35) rotate(7 65 50)">
+    <rect x="3" y="6" width="145" height="105" rx="13" fill="#040915" opacity=".18"/>
+    <rect width="145" height="105" rx="13" fill="#1d3041" stroke="#3c4c68"/>
+    <text x="17" y="35" font-family="Consolas,monospace" font-size="25" fill="#bcabff">{ }</text>
+    <path d="M19 52h65m-65 14h99m-84 14h48" stroke="#466078" stroke-width="5" stroke-linecap="round"/>
+    <path d="M19 52h24m-9 28h21" stroke="#50c5cf" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#5a899a" stroke-width="2" stroke-linecap="round">
+    <path d="m463 46 0 12m-6-6h12M946 157v12m-6-6h12"/>
+    <path d="m856 199 25 9 25-17" stroke="#9ba5cf"/>
+  </g>
+  <circle cx="856" cy="199" r="5" fill="#56c8cf"/><circle cx="881" cy="208" r="5" fill="#aaa0e5"/><circle cx="906" cy="191" r="5" fill="#56c8cf"/>
+</svg>
